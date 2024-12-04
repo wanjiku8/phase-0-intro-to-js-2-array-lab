@@ -1,9 +1,15 @@
-// Write your solution here!
+// Import the assert module
 
+// index.js
+const cats = [];
 
-beforeEach(function () {
+// Application code
+function initializeCats() {
   cats.length = 0;
   cats.push("Milo", "Otis", "Garfield");
+}
 
-  console.log(cats);
-});
+initializeCats();
+console.log("Cats initialized:", cats);
+
+

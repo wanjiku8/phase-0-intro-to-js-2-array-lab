@@ -2,8 +2,8 @@
 
 
 beforeEach(function () {
-  cats.length = 0;  // Clear the array
-  cats.push("Milo", "Otis", "Garfield");  // Add initial values
+  cats.length = 0;
+  cats.push("Milo", "Otis", "Garfield");
 
   console.log(cats);
 });
